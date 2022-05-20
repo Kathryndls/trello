@@ -1,0 +1,75 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+}
+
+body {
+    background-color: rgba(232, 197, 239, 0.15);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 1350px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px 30px 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
+
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.header__welcome {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 11px 25px;
+    color: rgba(153, 102, 204, 0.8);
+    background-color: rgba(153, 122, 204, 0.23);
+}
+.header__actions {
+    text-align: right;
+    font-family: Arial;
+}
+.header__actions_title {
+    font-size: 14px;
+    color: #a5a5a5;
+    margin: 10px 0px;
+}
+.header__actions_date {
+    color: #a5a5a5;
+    font-size: 16px;
+
+}
+.header__actions_icons {
+    margin-top: 20px;
+}
+.header__actions_icons img {
+    height: 20px;
+    width: 20px;
+    margin: 9px;
+}
+.header__actions_icons .line {
+    width: 2px;
+}
+.dashboardColumn {
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard__column-title {
+    font-size: 16px;
+    font-weight: bold;
+}
